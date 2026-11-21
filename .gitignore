@@ -1,0 +1,11 @@
+*TEACHER*
+using_AI_tutorial.ipynb
+
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

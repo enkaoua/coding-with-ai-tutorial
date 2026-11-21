@@ -17,12 +17,12 @@ Learn to use AI to help you learn and build, without trusting it blindly. You wi
 2. Download this repository (green **Code** button > **Download ZIP**) and unzip it.
 3. In VS Code, open the whole folder (**File > Open Folder**).
 4. In a terminal in that folder: `python -m venv .venv`, activate it, then `pip install -r requirements.txt`.
-5. Open `using_AI_tutorial.ipynb`, choose the `.venv` kernel, and run the first cell.
+5. Open `using_AI_tutorial_STUDENT.ipynb`, choose the `.venv` kernel, and run the first cell.
 
 ## What is in this repository
 
 | File | What it is |
 | --- | --- |
-| `using_AI_tutorial.ipynb` | The tutorial |
-| `tutorial_helpers.py` | The answer checkers and the simulated board used by the notebook. Ignore this file, you don't need to read or edit it. |
+| `using_AI_tutorial_STUDENT.ipynb` | The tutorial |
+| `tests.py` | The answer checkers and the simulated board used by the notebook. Ignore this file, you don't need to read or edit it. |
 | `requirements.txt` | The Python packages needed to run the tutorial on your own computer |

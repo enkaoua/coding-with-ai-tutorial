@@ -245,7 +245,7 @@ def check_time_axis(t, expected_spacing, expected_last_time):
 def check_counts_to_volts(fn):
     """Test your counts_to_volts function on the 2.000 V reference (channel 2)."""
     try:
-        cal = daq.read_adc(channel=2, n_samples=200, fs=250)
+        cal = SimulatedDAQ(seed=42).read_adc(channel=2, n_samples=200, fs=250)        
         v = fn(cal)
     except Exception as error:
         print(f"❌ Your function crashed: {type(error).__name__}: {error}")
@@ -444,5 +444,4 @@ def show_beats(t, signal, beats):
         print("❌ You predicted 2 to 3 beats in 2 seconds in Part 1. Look at where the dots are.")
 
         
-print("✅ Setup done. Carry on with the notebook.")
 
