@@ -24,5 +24,5 @@ Learn to use AI to help you learn and build, without trusting it blindly. You wi
 | File | What it is |
 | --- | --- |
 | `using_AI_tutorial_STUDENT.ipynb` | The tutorial |
-| `tests.py` | The answer checkers and the simulated board used by the notebook. Ignore this file, you don't need to read or edit it. |
+| `tutorial_helpers.py` | The answer checkers and the simulated board used by the notebook. Ignore this file, you don't need to read or edit it. |
 | `requirements.txt` | The Python packages needed to run the tutorial on your own computer |
